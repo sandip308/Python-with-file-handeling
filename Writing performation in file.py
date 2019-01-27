@@ -1,0 +1,6 @@
+f=open("My 1st file.txt",'w')
+print("Enter text ")
+str=input()
+f.write(str)
+print("Writing in a file successfully")
+f.close()
